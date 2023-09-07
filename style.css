@@ -7,6 +7,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 200px;
 }
 nav > ul {
   display: flex;
@@ -33,4 +34,18 @@ nav li {
   font-weight: 700;
   color: white;
   padding: 10px 20px;
+}
+
+.header{
+  background-color: #FFF8F3;
+  
+}
+.banner{
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner .dp{
+  width: 500px;
+  flex-shrink: 0;
 }
